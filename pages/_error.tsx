@@ -9,7 +9,7 @@ const Error: NextPage<{ statusCode?: number }> = ({ statusCode }) => {
       <img
         className="inline-block w-8/12 sm:w-4/12 m-auto mb-4"
         alt="Error"
-        src={is404 ? '/img/not-found.svg' : '/img/bug.svg'}
+        src={is404 ? '/static/img/not-found.svg' : '/static/img/bug.svg'}
       />
       <h3 className="text-3xl font-thin mt-4">{is404 ? '404' : 'Oops!'}</h3>
       <p className="font-thin mb-4">
@@ -18,7 +18,7 @@ const Error: NextPage<{ statusCode?: number }> = ({ statusCode }) => {
           : 'Something went wrong while processing your request.'}
       </p>
       <Link href="/">
-        <a className="font-thin text-indigo-500 hover:text-indigo-300">
+        <a className="transition-fast font-thin text-white hover:opacity-75 bg-indigo-500 rounded shadow px-4 py-2 hover:shadow-none">
           Go Home
         </a>
       </Link>
