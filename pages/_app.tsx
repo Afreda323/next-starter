@@ -3,7 +3,7 @@ import App from 'next/app'
 import NProgress from 'nprogress'
 import Router from 'next/router'
 import Head from 'next/head'
-import Nav from '../components/nav'
+import Nav from '../components/Nav'
 
 Router.events.on('routeChangeStart', (url) => {
   console.log(`Loading: ${url}`)

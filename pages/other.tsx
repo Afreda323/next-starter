@@ -10,8 +10,10 @@ const Other: NextPage = () => {
         <title>Other Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="p-4 shadow-md rounded bg-white mt-6">
-        <h1 className="text-purple-500 font-sans text-xl">Other Page</h1>
+      <div className="p-4 sm:shadow-md shadow rounded bg-white mt-6">
+        <h1 className="text-indigo-500 font-sans font-thin text-xl sm:text-3xl">
+          Other Page
+        </h1>
       </div>
     </div>
   )

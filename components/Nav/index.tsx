@@ -2,16 +2,20 @@ import React from 'react'
 import Link from 'next/link'
 
 const Nav = () => (
-  <nav className="bg-white p-2 shadow rounded-sm">
+  <nav className="bg-white p-2 shadow sm:shadow-md rounded-sm">
     <ul className="flex">
-      <li className="p-2 text-blue-500 hover:text-blue-300 ">
+      <li>
         <Link href="/">
-          <a>Home</a>
+          <a className="p-2 font-hairline inline-block text-indigo-500 hover:text-indigo-300">
+            Home
+          </a>
         </Link>
       </li>
-      <li className="p-2 text-blue-500 hover:text-blue-300 ">
+      <li>
         <Link href="/other">
-          <a>Other Page</a>
+          <a className="p-2 font-hairline inline-block text-indigo-500 hover:text-indigo-300">
+            Other Page
+          </a>
         </Link>
       </li>
     </ul>
