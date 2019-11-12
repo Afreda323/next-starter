@@ -1,5 +1,6 @@
 {
   "name": "next-starter",
+  "description": "Barebones next.js starter. Tailwinds for styling",
   "version": "0.1.0",
   "private": true,
   "scripts": {
